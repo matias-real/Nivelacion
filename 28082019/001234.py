@@ -45,7 +45,7 @@ f.sum(axis=1)   #Entrega la suma de los elementos del eje 1.
 
 data = np.loadtxt("data.txt", dtype =np.uint8, delimiter= ",", skiprows=1)   #Sirve para iportar archivos de texto facilmente.
 
-t = np.arange(10)    #Crea un arreglo del 0 al diez.
+t = np.arange(10)    #Crea un arreglo del 0 al 10.
 
 np.random.shuffle(t)   #Ordena el arreglo de manera aleatoria.
 
